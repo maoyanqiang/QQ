@@ -1,0 +1,33 @@
+*{margin:0px;padding:0px;}
+input,button{outline: none;}
+#box{width:500px;height:250px;border:1px solid red;position:absolute;top:300px;left:650px;border-radius: 15px;box-shadow: 0px 0px 10px 3px #888;background:#f6f6f6;border:2px solid #9e9e9e;}
+
+#title{height:50px;text-align: center;font-family: "微软雅黑";font-size:25px;position:relative;cursor: move;}
+.title_1{margin-top:7px;}
+.title_1 img{vertical-align: middle;}
+
+
+#body{height:190px;}
+#form1{width:60%;margin: 0px auto;}
+#user,#psd{margin-top: 20px;font-size:14px;border-radius: 5px;border:1px #ccc solid;padding-left:5px;height:30px;width:75%}
+#btn{width:100px;height:30px;border-radius: 10px;background:#306ace;border:none;margin-top:20px;color:#fff;font-family: "微软雅黑";cursor:pointer;}
+
+#select{display: inline-block;margin-left:60px;cursor:pointer;width:110px;}
+.icon{padding-left:25px;display: inline-block;height:25px;line-height: 25px;}
+.icon img{margin-bottom: 4px;}
+#select_menu{list-style: none;border: 1px solid #adadad;width:120px;background:#fff;position:relative
+;top:-25px;left:162px;display: none;}
+#select_menu li{padding-left: 25px;cursor: pointer;height:25px;line-height: 25px;}
+#select_menu li:hover{background: #306ACE;color: #fff;}
+.zaixian{background: url(../img/zaixian.png) no-repeat 3px 3px;}
+.Qwoba{background: url(../img/Q.png) no-repeat 3px 3px;}
+.likai{background: url(../img/likai.png) no-repeat 3px 3px;}
+.manglu{background: url(../img/manglu.png) no-repeat 3px 3px;}
+.qinwudarao{background: url(../img/jinzhi.png) no-repeat 3px 3px;}
+.yinshen{background: url(../img/yinshen.png) no-repeat 3px 3px;}
+.lixian{background: url(../img/lixian.png) no-repeat 3px 3px;}
+
+#select_text{display: inline-block;height:25px;line-height: 25px;}
+
+hr{width:50%;margin: 0px auto;}
+#colse{position:absolute;top:5px;right:5px;font-size: 20px;cursor:pointer}
